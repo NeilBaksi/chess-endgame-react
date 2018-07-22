@@ -1,0 +1,59 @@
+table{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+#react-target {
+    font-size: 4em;
+    text-align: center;
+}
+
+#react-target div {
+    width: 100%;
+    height: 100%;
+}
+
+#react-target .board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000000;
+    margin: 1em auto 0;
+}
+
+#react-target .board-square {
+    position: relative;
+    width: 12.5%;
+    height: 12.5%;
+}
+
+#react-target .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+#react-target .highlight.valid-move {
+    background-color: green;
+}
+
+#react-target .highlight.invalid-move {
+    background-color: red;
+}
+
+#react-target .highlight.suggest {
+    background-color: yellow;
+}
+
+#react-target .square {
+}
+
+#react-target .square span {
+    cursor: move;
+    vertical-align: middle;
+}
