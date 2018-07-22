@@ -3,8 +3,8 @@ Simple App based off the React DND Chess Tutorial recreating the endgame of Karp
 ### Usage
 
 ```
-git clone https://github.com/NeilBaksi/react-chess-endgame.git
-cd react-chess-endgame/
+git clone https://github.com/NeilBaksi/chess-endgame-react.git
+cd chess-endgame-react/
 npm install
 npm start
 open http://localhost:8080
