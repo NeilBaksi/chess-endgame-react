@@ -25,11 +25,6 @@ const Board = React.createClass({
         if ( p.color !== this.state.turn ) {
             return false;
         }
-        /*let target;
-        target = this.getPieceBySquare(destX, destY);
-        if ( target ) {
-            return false;
-        }*/
         dx = Math.abs(p.x - destX);
         dy = Math.abs(p.y - destY);
 
