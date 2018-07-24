@@ -11,7 +11,7 @@ const ChessPiece = React.createClass({
     
     getDefaultProps() {
         return {
-            piece: Constants.PieceStrings.WHITE_PAWN
+            piece: Constants.PieceStrings.KING
         };
     },
     render() {

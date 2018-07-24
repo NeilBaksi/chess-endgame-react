@@ -123,7 +123,7 @@ const Board = React.createClass({
         return (
             <div>
             	{gameEnd ? (
-                	<h3>Game Over! {this.state.turn} wins! </h3>
+                	<h2>Game Over! {this.state.turn} wins! </h2>
             	) : (            		
             		<h3>{this.state.turn}'s Turn</h3>
             	)}
